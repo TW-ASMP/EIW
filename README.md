@@ -2,9 +2,9 @@
 
 This repository holds the latest version of the Entity Information Workbook template (EIW).
 
-For THC projects, please download and use the 13040-WMS-EIW_for_THC.xlsx file
 
-For projects at other site, please download and use the 13040-WMS-EIW.xls file
+> [!IMPORTANT]  
+> This version of the EIW is being piloted exclusively at the HCTP. If you wish to use this version for a project at your facility, you must consult with the plant engineer(s) at the facility responsible for capital project delivery.
 
 To download the file:
 1. click on the file name to enter the file page
