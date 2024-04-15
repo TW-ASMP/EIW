@@ -16,8 +16,6 @@ To download the file:
 
 # Usage Instructions
 
----
-
 This section contains instructions for particular steps in EIW usage that may not be immediately intuitive.  The other steps, perceived by TW to be straightforward are not included.  In other words, this is not a complete or comprehensive instruction set. 
 
 ## Consultant and Contractor: Enabling Excel Macro 
@@ -38,6 +36,9 @@ Each row on the **Asset** worksheet represents one of the following asset change
 
 We start representing these changes from the  **Original Entity Number in WMS** column, shown below.
 
+![image](https://github.com/TW-ASMP/EIW/assets/116810412/9b501f23-6290-47c9-bc12-19aa6a76e993)
+
+
 ### Representing New Asset (and new role) Addition 
 
 First, ensure that the asset you add is not replacing an existing asset (or multiple existing assets).  Then, in the **Change to Physical Asset** column, select "Added as new (to serve a new role)."
@@ -46,6 +47,7 @@ First, ensure that the asset you add is not replacing an existing asset (or mult
 
 In the **Change to Physical Asset** column, select "Replaced".  Then, enter the correct value in the **Original Entity Number in WMS** column.
 
+> [!NOTE]
 > In most cases, the original value you enter into the **Original Entity Number in WMS** column should be the same as the value you enter into the **Final Entity Number**. There are times, however, when it is valid for the consultant to enter different entity numbers in the two columns.  The difference would indicate to TW that the original entity number was revised to a new entity number in the course of the project. 
 >
 > Also, it is valid for the consultant to enter multiple entity numbers in the **Original Entity Number in the WMS** column;  this would indicate to TW that a new asset has replaced the function of multiple original assets.
@@ -66,14 +68,18 @@ In every project, the consultant also needs to represent a class of assets that 
 
 ## Consultant: Indicating Requirement for Further Asset Specification
 
-TW collects additional technical specifications for approximately a dozen asset classes, including pump, motor, and valve.  While most of this information is entered by the contractor, the consultant must indicate, in each row, where additional specifications must be entered.  The following is an example of a consultant indicating, with the word "yes" under a class name, that further technical specifications on a pump and the motor are required.  
+TW collects additional technical specifications for approximately a dozen asset classes, including pump, motor, and valve.  While most of this information is entered by the contractor, the consultant must indicate, in each row, where additional specifications must be entered.  The following is an example of a consultant indicating, with the word "yes" under a class name, that further technical specifications on a pump and the motor are required.
 
-![image-20240415134238477](C:\Users\thuang4\AppData\Roaming\Typora\typora-user-images\image-20240415134238477.png)
+
+![image-20240415134238477](https://github.com/TW-ASMP/EIW/assets/116810412/3b2a3436-bd58-4010-aa7f-d3a75f2b4787)
+
 
 At a later date, the consultant and the contractor would click on the "+" symbol (shown at the top of the example image) to expand and reveal the additional information entry columns.  The additional technical information for the pump class is shown in the example below.
 
-![image-20240415134329504](C:\Users\thuang4\AppData\Roaming\Typora\typora-user-images\image-20240415134329504.png)
+![image-20240415134329504](https://github.com/TW-ASMP/EIW/assets/116810412/ddaaa867-d018-4305-a182-20ea8ffc0efe)
 
+
+> [!NOTE]
 > In the previous iteration of the EIW, the contractor(s) would fill out all additional specifications.  In this version, the consultant is also responsible for a few columns of information.  In the example above, the consultant must specify the pump's orientation. 
 
 ## Contractor: Additional Technical Specification for Instrumentations
@@ -83,14 +89,13 @@ Unlike other asset classes, you won't be able to enter any additional technical 
 In the example below, the consultant indicated that THC-EX-FIT-0001 is a piece of instrumentation.  
 
 
+![image-20240415133130362](https://github.com/TW-ASMP/EIW/assets/116810412/0cb13761-77e9-4de1-9e2d-89fd859a605c)
 
-![image-20240415133130362](C:\Users\thuang4\AppData\Roaming\Typora\typora-user-images\image-20240415133130362.png)
 
 After examining the manual, the contractor for the project noticed that this instrument has flow and temperature-sensing functions.   As such, the contractor fills out two rows in the Asset-Instrumentation worksheet, both under the entity number THC-EX-FIT-0001. 
 
 
-
-![image-20240415133041829](C:\Users\thuang4\AppData\Roaming\Typora\typora-user-images\image-20240415133041829.png)
+![image-20240415133041829](https://github.com/TW-ASMP/EIW/assets/116810412/fea7f070-b4e1-4f85-b591-1f5074456f2f)
 
 
 
