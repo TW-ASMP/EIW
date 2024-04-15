@@ -18,13 +18,17 @@ To download the file:
 
 This section contains instructions for particular steps in EIW usage that may not be immediately intuitive.  The other steps, perceived by TW to be straightforward are not included.  In other words, this is not a complete or comprehensive instruction set. 
 
-## Consultant and Contractor: Enabling Excel Macro 
+## Enabling Excel Macro 
+
+> Audience: Consultant and Contractor
 
 The EIW is a VBA macro-enabled spreadsheet; upon opening the EIW, you must enable the Excel macros.  You can find more instructions from Microsoft in the links below.
 
 ​	[Enable or disable macros in Microsoft 365 files - Microsoft Support](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-microsoft-365-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-## Consultant: Documenting Asset Changes
+## Documenting Asset Changes
+
+> Audience: Consultant
 
 Each row on the **Asset** worksheet represents one of the following asset changes.
 
@@ -66,7 +70,9 @@ If the asset is moved into storage, i.e., it will not play any role after the pr
 
 In every project, the consultant also needs to represent a class of assets that are not being changed by the project - these are assets on the branch of the asset hierarchy that fall within the scope of the consultant's project.  For example, if the consultant redesigns the HVAC equipment of Building-A, it is responsible for re-specifying Building-A's HVAC system asset hierarchy.  In its specification, the consultant must rebuild the complete hierarchy, including several original air handlers that the project will not change.  This is analogous to the consultant's responsibility to represent the same air handler in the revised drawings.  
 
-## Consultant: Indicating Requirement for Further Asset Specification
+## Indicating Requirement for Further Asset Specification
+
+> Audience: Consultant
 
 TW collects additional technical specifications for approximately a dozen asset classes, including pump, motor, and valve.  While most of this information is entered by the contractor, the consultant must indicate, in each row, where additional specifications must be entered.  The following is an example of a consultant indicating, with the word "yes" under a class name, that further technical specifications on a pump and the motor are required.
 
@@ -82,7 +88,9 @@ At a later date, the consultant and the contractor would click on the "+" symbol
 > [!NOTE]
 > In the previous iteration of the EIW, the contractor(s) would fill out all additional specifications.  In this version, the consultant is also responsible for a few columns of information.  In the example above, the consultant must specify the pump's orientation. 
 
-## Contractor: Additional Technical Specification for Instrumentations
+## Additional Technical Specification for Instrumentations
+
+> Audience: Contractor
 
 Unlike other asset classes, you won't be able to enter any additional technical specifications for instrumentations into the Asset worksheet.  You will need to enter them in the Asset-Instrumentation worksheet.  The reason is that many instrumentations can sense multiple parameters, such as temperature, pressure, or flow, and TW would like to know this full range of sensing functions. 
 
